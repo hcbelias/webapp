@@ -11,7 +11,7 @@ export class ContactController {
 
 }
 
-export default angular.module('contact', [uiRouter])
+export default angular.module('websiteApp.contact', [uiRouter])
   .config(routing)
   .component('contact', {
     template: require('./contact.pug'),

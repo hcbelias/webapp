@@ -33,7 +33,7 @@ import main from './main/main.component';
 import './app.scss';
 
 angular.module('websiteApp', [ngCookies, ngResource, ngSanitize, uiRouter, uiBootstrap,
-  _Auth, navbar, footer, main, constants, util
+  _Auth, navbar, footer, main, constants, util, about
 ])
   .config(routeConfig)
   .run(function($rootScope, $location, Auth) {
