@@ -10,3 +10,5 @@ dist
 npm-debug.log
 coverage
 /bower_components
+/.vs/config/applicationhost.config
+/.vs/webapp/v14/.suo
